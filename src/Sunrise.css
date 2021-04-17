@@ -1,0 +1,115 @@
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #ffffcc 0%, #967896 70%);
+  }
+  
+  .main {
+    min-height: 55vh;
+    background: rgb(160, 130, 155);
+    box-shadow: 0px 2px 80px -20px rgba(0,0,0,0.5);
+    width: 55%;
+    margin: 0 auto;
+  }
+  
+  .info {
+    min-height: 55vh;
+    background: url("img/sunrise.jpg") center center no-repeat;
+    background-blend-mode: multiply;
+    background-color: #909090;
+    border: 2px solid #ffffcc;
+    border-right: 2px solid #ffffcc;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+  }
+  
+  .form {
+    min-height: 55vh;
+    padding-top: 100px;
+    padding-left: 50px;
+    border-top: 2px solid #ffffcc;
+    border-bottom: 2px solid #ffffcc;
+    border-right: 2px solid #ffffcc;
+  }
+  
+  input[type="text"] {
+    background-color: transparent;
+    border: 0;
+    border-bottom: solid 2px #ffffcc;
+    width: 70%;
+    padding-bottom: 4px;
+    color:#ffffcc;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    margin-right: 25px;
+    font-size: 25px;
+    outline: none;
+  }
+  
+  input::-webkit-input-placeholder {
+    color: #ffffcc;
+  }
+  
+  input::-moz-placeholder {
+    color:#ffffcc;
+  }
+  
+  button {
+    border: 2px solid#ffffcc;
+    border-bottom: 4px solid#ffffcc;
+    padding: 8px 20px;
+    margin: 0 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: #a0829b;
+    color: #ffffcc;
+    outline: none!important;
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+  }
+  
+  button:hover {
+    border-bottom: 2px solid#ffffcc;
+    position: relative;
+    top: 2px;
+  }
+  
+  button:active {
+    border-bottom: 2px solid transparent;
+    border-color: transparent;
+    position: relative;
+    background-color: #ffffcc;
+    color: #a0829b;
+    top: 2px;
+  }
+  
+  .info h2 {
+    margin-top: 205px;
+    font-size: 60px;
+    color: #ffffcc;
+  }
+  
+  .info p {
+    color: #ffffcc;
+    font-weight: bold;
+  }
+  
+  .infoWeath {
+    width: 100%;
+    font-size: 30px;
+    color: #ffffcc;
+  }
+  
+  .error {
+    color: #ffffcc;
+    font-weight: bold;
+    font-size: 25px;
+  }
